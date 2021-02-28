@@ -1,0 +1,69 @@
+server:
+  port: 8088
+    
+spring:
+  cloud:
+    bus:      enabled: true
+      refresh:        enabled: true
+        
+    config:
+      server:
+        git:
+          uri: git@github.com:lcjltj/ConfigFile
+          ignore-local-ssh-settings: true
+          private-key: |
+                        -----BEGIN RSA PRIVATE KEY-----
+                        MIIJJwIBAAKCAgEAtGKiBFsyb1VgFLsCTAAC4G+BoIheUA6kcl56hDMKGfJFfBqk
+                        jGoXjwZbK00LB6ZBKsdhZUK2z7KQUmLlSgQbA7/s4b1dXbPfwCsqLAphF93m1bcK
+                        /71SpEMu/H4MUS5GnApnJ62RNNm0E3bZTeMG867RSnW5ymYfRPfDfiX8Ae+u/7U1
+                        oZPpHnWxLjeMDwtFM0do5CgDU6Q+GljOA06d/owpx9IIudmQo7Ad9sJdcdpL+yr5
+                        ENhfmZ8jTLXyEKYjcoI5FJTY+XdpSfg1GzW6fxUdtqKGdvHorC85ZSj6Pmb4LCzG
+                        fbqOeHDh9skxha/ahnz9euzGBG3ZVRHkaOTvIVvDXyJS7QiljKfLgTcuM36MHiHd
+                        sAIdIYLuFaWRYU3H8uTFcdHhLr8/Te3QgAatvu1SSunuC0kijEym6M6ez0t5YC2a
+                        BpsAe+pE1IgRBG2YVTjvtK4T3iZlD/2q/gDHl09DyBaVaHOeoepL7T8jHAvgD4aB
+                        DlIOKZznZibnoEhfgw/+Wmgug4ZlqIFQoDlMVrJrevnaUrIM59C8LA/nC0BTpNoq
+                        LbLjH7YBmCU5UehS384gSM7xMesdz8CfuCdjO8Wy+TRbrVSPGho0dhUu5TgQzT9I
+                        WbalukhD5i3H44oOimA+dtbrKnXRou26cimAnFGCJARDZGIUhVGHN5fi5KMCAwEA
+                        AQKCAgBg7Srfql1EY5y4JvCKA+uHy4LczsnWvLdyWP/+Lyq7XGon0G0gohU8ng65
+                        CrHlj1ku8mmMLrfqjKluC4PnLKOTdTqE5erYYcHWEZuchIs9dtgFeFCpsIJKj2sc
+                        82IM8Q+x4wkg0evXeS+A0fjcGCRxJjuBhhaqAgvFVFiwXRq3s6HV9vn1c3PtERJ+
+                        ogxZPRYXAsUC69k1xWg1Ygh40HKnB4ufumVD7/r/abAAGtp5RfJT6PhiK9Hayx79
+                        pjqG5a7gZcbkH0MjcR2bSIrIrysiBCeuLlCQc1Yxx0JQ8B7fDxdFLV4OywKpBwb0
+                        Q5GfoymJ4HmX5shUMu53/qA8GN/ApaKgP+xLq+Y1kjzBRxCB6WZH09SHHKJ86nyG
+                        f+1k/UbH6A+Yg+/Z3TET+eRjwHNgkfLD3TJy+72Y6/81V/WCtBvclJK9aVybJG0b
+                        e9g1DfCWth+HruurFPDQ1xa8NNQBBdencROZlDA3MpyQKr30POHxGGmDFob2HIJy
+                        3mxzmobf7Ywrhfxr2ghLKQky/+RWTv1Ogslaz3aZaMrWqQjEqwpNR5fhb/57RL3a
+                        nbIYD7Jeld73HCw9/JeeRmEgLC1Now8vxCazzdk3KIorgxwMoniAg+JpKWg0mVOM
+                        HowIMqqGwXn0X5GudbcJqUtjom7m/SLrFByVZfkHQ/fAIClPyQKCAQEA8AaEZciu
+                        F+pHAbkNRkma9ZeOanqa3LSqs1C2VNTKHlSHUHdCseEHmY3JMv5GcXS2buApm14M
+                        MM1gtXmOywM/MS1aiXbnd8LGWGPp+iVHZVLNsLalP6TITV/x1GErm0DjBU62bcgu
+                        Cff6m1oMgApOTX5vE6hs2EGaC2DEzKDX7My70bEhLLAaDERDb9x34bF4wo950Tbl
+                        ZAunCJ5NgY4xvYdCQFlpl9eCJLYfIgmO2ufPeQa6f6dJcbPvbvTs5Us9wi6bkRw1
+                        OMp7j/DeS8rEo9Nm9NmQcNzinujwCE3SueqMhfuQYFOZkTSIhtnB6Y7I0YBtB9bN
+                        7guMRNWUZgIFVwKCAQEAwGP76xkY1rx3156X0z+8QFhI1i+VwIBRq69dYNyKi72P
+                        1Yg6VpIvyl9tuLtuEh8Q35obbuyyjT707QX0fDgaL1EODIi1IZVc33NzZ871a/hK
+                        ygh4sxmsqLbL4mIsSA23hmY7tXjq4m4biVYTqwKQ58QbzA/cnSpbL/ahdm3vydBV
+                        js4Ims5qXFTIS9VhoFA2sl5PGmBYg8/MdvxeHCF8f1aX0Lbt9w+xHS0XH3XUEJtA
+                        iviWmJmw7aD1jbnWjZBFBVXzUSB1DvktvTFS7xoUpzDWdzFBeFAlDNbRdpGE9HCa
+                        aUsb1yAER+2Ao7eDiRwLjHA9nLFgYo5GOVgGKgnflQKCAQBTN887guJpRD6uKDyj
+                        ++0P7SXhYPTERJdSaE9vBf+1mFT53v9usLhz0qbJWUOPHooJ0wpZ5beQTASVprmN
+                        RWjpYfIb6u/Bo/QkvS9oHPit9pF+DTUp5bXUrckoezAlOc/8DRhO47KinilzJzti
+                        QTB4ybc1N5XVPJluDHTvBW0Xmrwbra/00HGXgytmYyflRiS6QAhaMxBBKZEV+dyh
+                        aG1yaqzbpqRnkr56f/I3WN0ApJJYQa7zh0p9c4c2DxD7RqT46DPjkcYaFInWlApe
+                        eMTIkAkIJ05e8xZXRifCmUjQULO72EZsP0/k+jPDnUgP9ANIL6CdsSnguHw/eVVk
+                        MJstAoIBAFrFkdFtiOugBockG4wfMSnGva7YyrYFlQME/XC6/V9LM/bSjHvWA1hf
+                        R/x16kwAfkyRgEoIwYGk55iBS8XkDm6utosxYQyUVTpUVWnwGpkzj83cy13tSipb
+                        /Lw2B6CDYEi4KYnIoEHvI2zbwPHZhxbizx6riTJaDqYFnk6rNgypEAUNrr+jjkk7
+                        8zjcV3B1CCmGF5phRMIEI/srvRdWsU+/QmfGN2Zu7+jNInDEfibLqVsoSJ19Ph4P
+                        6GtS+CjYncgTsnZfcvt6k5sFD5UiYAY2I6ofAj3KyoBRRojDxdAy5JezSVJpl7t8
+                        EkqsRhJFuikrt9YbVleJuxZJMrdY6zUCggEARvTzChgTrithlJcLhy3Zlsv3vOwr
+                        zRZyIOlXc8FTpoaE/5S92Tig0HWhYL7ysp2/tsPad2Oy5XYJTTzTjBWloDO1ZHC7
+                        eN+7UivrhomUsBY7XEeNR6oIpu7YBGXs7seEUA+zEbtiD2oXug4/XkNTwVU2SHOF
+                        vaatMo2hMgxL0GJoyF9eEA9fvFH90xdAnw7Rm9OiibDWDzFqU00/APxWMA5mQqtZ
+                        /TT2x/WBmnNp5ue/n+fuE5jLi46OXlDAt+ehJuDpCKK44T2LT+kKA1IT/JDt/kNM
+                        /C6D0JBYxW1J+L2r0353YIAJhKfpU//Mhv93ALALIfgKx8w/rSAfDwhQMQ==
+                        -----END RSA PRIVATE KEY-----
+
+  rabbitmq:    host: 192.168.219.107
+    username: guest
+    password: guest                               
